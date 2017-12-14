@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html{
+    -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3, h4, h5{
+    color:#ffffff;
+    font-family: Arial,sans-serif;
+}
+h1{
+    text-align:center;
+}
+
+nav{
+    color:#ffffff;
+}
+
+body{
+    background:#eeeeee;
+}
+
+.baseWatchLogo{
+    max-width: 4rem;
+    max-height: 4rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.b-title{
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+    display: block;
+}
+
+.content{
+    background-color: #ffa500;
+    display: flex;
+    margin-top: 8px;
+}
+
+.hero{
+    background-image: url(https://static.gamespot.com/uploads/scale_super/123/1239113/3327124-ovr_winterwonderland2017_004.jpg);
+}
+
+.image{
+    width: auto;
+    height: auto;
+}
+.newMessage{
+    background-color: gray;
+}
+.welcome{
+    background-color: #ffa500;
+}
+
