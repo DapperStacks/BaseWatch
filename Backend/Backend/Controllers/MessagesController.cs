@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Backend.Models;
 
 namespace Backend.Controllers
 {
@@ -16,19 +17,19 @@ namespace Backend.Controllers
         {
             this.context = context;
         }
-        public IEnumerable<Models.Message> Get()
+        public IEnumerable<Models.Messages> Get()
         {
             return context.Messages;
         }
 
         [HttpGet("{name}")]
-        public IEnumerable<Models.Message> Get(string name)
+        public IEnumerable<Models.Messages> Get(string name)
         {
             return context.Messages.Where(message => message.Owner == name);
         }
 
         [HttpPost]
-        public Models.Message Post([FromBody]  Models.Message message)
+        public Models.Messages Post([FromBody]  Models.Messages message)
         {
             var dbMessage = context.Messages.Add(message).Entity;
             context.SaveChanges();

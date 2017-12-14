@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Backend.Models;
 
 namespace Backend.Controllers
 {
@@ -46,14 +47,14 @@ namespace Backend.Controllers
         }
 
         [HttpPost("register")]
-        public JwtPacket Register([FromBody]Models.User user)
+        public JwtPacket Register([FromBody]Models.Users user)
         {
             context.Users.Add(user);
             context.SaveChanges();
             return CreateJwtPacket(user);
         }
 
-        JwtPacket CreateJwtPacket(Models.User user)
+        JwtPacket CreateJwtPacket(Models.Users user)
         {
             var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("this is the secret phrase"));
             var signingCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);

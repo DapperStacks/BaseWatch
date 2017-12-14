@@ -14,6 +14,8 @@ using Backend.Controllers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Backend.Models;
+
 namespace Backend
 {
     public class Startup
@@ -99,18 +101,18 @@ namespace Backend
         }
         public void SeedData(ApiContext context)
         {
-            context.Messages.Add(new Models.Message
+            context.Messages.Add(new Models.Messages
             {
                 Owner = "John",
                 Text = "hello"
             });
-            context.Messages.Add(new Models.Message
+            context.Messages.Add(new Models.Messages
             {
                 Owner = "Tim",
                 Text = "Hi"
             });
 
-            context.Users.Add(new Models.User { Email = "a", FirstName = "Tim", Password = "a", Id ="1" });
+            context.Users.Add(new Models.Users { Email = "a", FirstName = "Tim", Password = "a", Id ="1" });
 
             context.SaveChanges();
         }

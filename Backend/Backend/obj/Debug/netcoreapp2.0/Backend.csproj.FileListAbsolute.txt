@@ -9,3 +9,14 @@ C:\Users\James Tam\source\repos\messageBoard\Backend\Backend\obj\Debug\netcoreap
 C:\Users\James Tam\source\repos\messageBoard\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.AssemblyInfo.cs
 C:\Users\James Tam\source\repos\messageBoard\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.dll
 C:\Users\James Tam\source\repos\messageBoard\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.pdb
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\bin\Debug\netcoreapp2.0\Backend.deps.json
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\bin\Debug\netcoreapp2.0\Backend.runtimeconfig.json
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\bin\Debug\netcoreapp2.0\Backend.runtimeconfig.dev.json
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\bin\Debug\netcoreapp2.0\Backend.dll
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\bin\Debug\netcoreapp2.0\Backend.pdb
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.csprojResolveAssemblyReference.cache
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.AssemblyInfoInputs.cache
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.AssemblyInfo.cs
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.dll
+C:\Users\James Tam\source\repos\BaseWatch\Backend\Backend\obj\Debug\netcoreapp2.0\Backend.pdb

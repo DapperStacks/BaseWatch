@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Backend.Models;
 
 namespace Backend.Controllers
 {
@@ -54,7 +55,7 @@ namespace Backend.Controllers
             return Ok(user);
         }
 
-        Models.User GetSecureUser()
+        Models.Users GetSecureUser()
         {
             var id = HttpContext.User.Claims.First().Value;
             return context.Users.SingleOrDefault(u => u.Id == id);
